@@ -140,13 +140,13 @@
 // Define this to 1 to support an ENC28J60 Ethernet interface
 // Experimental feature - not yet stable
 //
-define		HAVE_ENC28J60 1
+#define		HAVE_ENC28J60 1
 
 //
 // Define this to 1 to support ENC28J60 DHCP server
 // Experimental feature - might not yet be stable
 //
-define         DCHPSERVER_ENC28J60 1
+#define         DCHPSERVER_ENC28J60 1
 
 //
 // Define this ESP GPIO, if you have the HW-RESET pin of the ENC28J60 connected to it
